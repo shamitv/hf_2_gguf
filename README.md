@@ -51,7 +51,15 @@ cd llama.cpp
 make -j6
 
 At this point, disk usage was about ~5 GB for me 
+
 ![image](https://github.com/shamitv/hf_2_gguf/assets/8604949/3ee369d0-c52e-4fa7-a36f-6236efa34efa)
 
+
+## Test conversion script  
+llama.cpp/convert-hf-to-gguf.py --help
+
+Should not  geneate any error and produce output like this. 
+
+![image](https://github.com/shamitv/hf_2_gguf/assets/8604949/e9a06e31-7466-4313-ae13-90de4968a846)
 
 
