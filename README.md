@@ -37,7 +37,9 @@ pip install 'huggingface_hub[cli,torch]'
 
 ##### Lamma Cpp binaries (for quantization) and "gguf" python library
 git clone https://github.com/ggerganov/llama.cpp.git
-pip install /llama.cpp/gguf-py
+pip install ./llama.cpp/gguf-py
+
+![image](https://github.com/shamitv/hf_2_gguf/assets/8604949/792f3e33-e1de-4a9c-a40b-d4af003f1cd4)
 
 
 ###### Why not gguf from pypi ?
